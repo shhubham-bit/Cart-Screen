@@ -11,7 +11,7 @@ const ItemInformation = (props)=> {
                 orientation={'column'}
                 label={"Per Unit"}
                 labelStyle={style.itemlabel}
-                textValue={props.product.item.price.toFixed(2)}
+                textValue={"$"+props.product.item.price.toFixed(2)}
                 textStyle={style.itemValue}
             />
             <TextWithLabel 
